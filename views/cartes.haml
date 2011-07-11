@@ -1,0 +1,14 @@
+
+%head
+  %link{:rel => "stylesheet", :type => "text/css", :href => "/css/cartes.css"}
+  %title Imprimer vos cartes A.M.i
+
+%body
+  %div
+    %a(href = '/') Retour à l'accueil
+  %div.cartes
+    - 3.times do
+      %div.carte
+        %img(src = '/img/cartename.jpg')
+      
+  
